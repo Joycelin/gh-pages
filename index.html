@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>UI-04</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="./CSS/main.css">
+</head>
+<body>
+	<div class="wrap background">
+		<div class="bg-text"><img src="./img/d004-after.png"></div>
+			<div class="container width850">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div class="header">
+								<h2><span>PAYMENT</span>DETAILS</h2>
+								<h1><img src="./img/d004-visa.png"></h1>
+							</div>
+							<div class="content">
+								<div class="holder-info">
+									<div class="holder-name info-label col-md-6">
+										<label>CARDHOLDER'S NAME</label>
+										<input type="text"></input>
+									</div>	
+									<div class="card-num info-label col-md-6">
+										<label>CARD NUMBER</label>
+										<input type="text" maxlength="16"></input>
+									</div>
+								</div>
+								<div class="card-info">
+									<div class="card-exp info-label col-md-9">
+										<label>EXPIRY DATE</label>
+										<select class="expMM exp-select">
+											<option class="first-option" value=''>Month</option>
+											<option value="1">Janary</option>
+											<option value="2">February</option>
+											<option value="3">March</option>
+											<option value="4">April</option>
+											<option value="5">May</option>
+											<option value="6">June</option>
+											<option value="7">July</option>
+											<option value="8">August</option>
+											<option value="9">September</option>
+											<option value="10">October</option>
+											<option value="11">November</option>
+											<option value="12">December</option>
+										</select>
+										<select class="expYY exp-select">
+											<option class="first-option" value="">Year</option>
+											<option value="1">2020</option>
+											<option value="2">2019</option>
+											<option value="3">2018</option>
+											<option value="4">2017</option>
+											<option value="5">2016</option>
+										</select>
+									</div>	
+									<div class="cvv info-label col-md-3">
+										<label>CVV</label>
+										<input type="text"></input>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="sub-btn">
+						<input type="submit" value="COMPLETE ORDER"><i class="fa fa-long-arrow-right"></i></input>
+					</div>
+			</div>
+		
+	</div>
+	
+</body>
+</html>
